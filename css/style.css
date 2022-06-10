@@ -1,0 +1,100 @@
+/* body {
+    color: red;
+}  */
+.post-text {
+    text-indent: 300px;
+}
+.post-title {
+    letter-spacing: 10px;
+}
+
+.post-text {
+    letter-spacing: 5px;
+}
+.title {
+    color: #ffffff;
+    text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+}
+pre {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+pre::first-letter {
+    font-family: 'Tahoma', serif;
+    font-size: 32px;
+    color: #f44336;
+}
+.link {
+    color: currentColor;
+}
+.link:hover {
+color: tomato;
+}
+.social-links .link {
+color:teal;
+}
+.social-links .link:focus {
+    color: tomato;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;
+}
+.social-links .link:active {
+    color: red;
+}
+.social-links .link:visited {
+    color: var(--brand-color);
+}
+.schedule-body > tr:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+.schedule {
+    border-collapse: collapse;
+}
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid var(--brand-color);
+}
+.section {
+    border: 2px solid var(--brand-color);
+}
+.section-title {
+    color: var(--brand-color);
+}
+.section-title::before {background-color: var();}
+
+:root {
+    --brand-color: red;
+}
+.alert {
+    --alert-text-color: black;
+    --alert-accent-color: tomato;
+}
+
+.alert-text {
+    color: var(--alert-text-color);
+    border: 1px solid var(--alert-accent-color);
+}
+
+.alert-icon {
+    background-color: var(--alert-accent-color);
+}
+.alert {
+    --alert-text-color: green;
+    --alert-accent-color: orange;
+}
+.text>span {
+    text-decoration: line-through;
+}
+
+.link {
+    text-decoration: none;
+}
+
+    
