@@ -1,11 +1,50 @@
 /* body {
     color: red;
 }  */
-.post-text {
+
+.botton-list {
+    display: flex;
+    list-style: none;
+    width: 500px;
+}
+
+.mardg {
+    /* display: inline-block; */
+    width: 500px;
+    background-color:grey;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botton-content {
+    
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    height: 38px;
+    box-sizing: border-box;
+    /* min-width: 100px; */
+    margin-right: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 5px 5px rgba(133, 131, 131, 0.5);
+    background-color: #F5F4FA;
+}
+    .post-text {
     text-indent: 300px;
 }
 .post-title {
-    letter-spacing: 10px;
+    letter-spacing: 30px;
+    border-bottom-color: 2px solid #ff0000;
+    border-bottom: 2px solid grey;
 }
 
 .post-text {
